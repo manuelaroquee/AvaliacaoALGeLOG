@@ -1,0 +1,23 @@
+programa
+{
+/*h) Elaborar um programa que calcule e apresente o valor do volume de uma caixa
+retangular, utilizando a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.*/
+	
+	funcao inicio()
+{
+    
+
+	     inteiro volume, comprimento, largura, altura
+	     
+		escreva("Qual o comprimento da caixa? ")
+		leia(comprimento)
+		escreva("Qual a largura da caixa? ")
+		leia(largura)
+		escreva("Qual a altura da caixa? ")
+		leia(altura)
+
+		volume = comprimento*largura*altura
+
+		escreva("O volume da caixa é de " ,volume, " cm3")
+	}
+}
