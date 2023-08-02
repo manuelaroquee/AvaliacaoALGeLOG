@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a, b, c
+	     
+		escreva("Digite o valor de A: ")
+		leia(a)
+		escreva("Digite o valor de B: ")
+		leia(b)
+
+		c = a + b
+		b = c - b
+		a = c - a
+		
+		escreva("Valor de A: " ,a, "\n Valor de B: " ,b)
+	}
+}
