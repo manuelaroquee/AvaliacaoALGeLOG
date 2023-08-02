@@ -14,7 +14,7 @@ reajuste (variável PR) a ser atribuído. Apresentar o valor do novo salário (v
 		escreva("Informe o percentual do reajuste salarial: ")
 		leia(pr)
 
-		ns = sm + pr
+		ns = sm + pr/100
 
 	escreva("O seu novo salário é: R$",ns)
 
