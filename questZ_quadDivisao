@@ -1,0 +1,22 @@
+programa
+{
+/*z) Ler dois valores numéricos inteiros (representados pelas variáveis A e B) e apresentar
+o resultado do quadrado da divisão do primeiro valor (variável A) em relação ao segundo
+valor (variável B).*/
+	
+	funcao inicio()
+{
+
+	     inteiro a, b, resultado
+	     
+		escreva ("Digite o primeiro valor: ")
+		leia(a)
+		escreva ("Digite o segundo valor: ")
+		leia(b)
+
+		resultado = (a / b) * (a / b)
+
+		escreva("O quadrado da divisão de " ,a, " e " ,b, " é: " , resultado)
+		
+	}
+}
