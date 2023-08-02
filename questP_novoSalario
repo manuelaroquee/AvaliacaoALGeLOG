@@ -1,0 +1,23 @@
+programa
+{
+/*p) Elaborar um programa que leia o valor numérico correspondente ao salário mensal
+(variável SM) de um trabalhador e também faça a leitura do valor do percentual de
+reajuste (variável PR) a ser atribuído. Apresentar o valor do novo salário (variável NS).*/
+	
+	funcao inicio()
+{
+
+	     real sm, pr, ns
+	     
+		escreva("Informe o valor do seu salário mensal: ")
+		leia(sm)
+		escreva("Informe o percentual do reajuste salarial: ")
+		leia(pr)
+
+		ns = sm + pr
+
+	escreva("O seu novo salário é: R$",ns)
+
+		
+	}
+}
