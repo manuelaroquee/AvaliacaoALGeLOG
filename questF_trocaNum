@@ -1,8 +1,12 @@
-programa
-{
+//Questão F -Ler dois valores para as variáveis A e B e efetuar a troca dos valores de forma que a
+variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da
+variável A. Apresentar os valores após a efetivação do processamento da troca.
+//Autor: Manuela da Silva Roque
+//Turma: 20231.1.TAS.1N 
+//Data: 01/08/2023  
+programa {
 	
-	funcao inicio()
-	{
+	funcao inicio() {
 		inteiro a, b, c
 	     
 		escreva("Digite o valor de A: ")
