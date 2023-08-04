@@ -1,11 +1,12 @@
+//Questão A -  Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
+A fórmula de conversão é F = (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e C
+a temperatura em Celsius
+//Autor: Manuela da Silva Roque
+//Turma: 20231.1.TAS.1N 
+//Data: 01/08/2023                      
 programa
 { 
-/* a) Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
-A fórmula de conversão é F = (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e C
-a temperatura em Celsius.*/
-	
-	funcao inicio()
- {
+	funcao inicio() {
 
 	     inteiro celsius, fahrenheit
 		escreva("Digite a temperatura em graus Celsius: ")
@@ -16,3 +17,4 @@ a temperatura em Celsius.*/
 		escreva("A temperatura " ,celsius, " graus Celsius corresponde a " ,fahrenheit, " graus Fahrenheit")
 	}
 }
+
