@@ -1,11 +1,11 @@
-programa
-{
-/*z) Ler dois valores numéricos inteiros (representados pelas variáveis A e B) e apresentar
+//Questão Z - Ler dois valores numéricos inteiros (representados pelas variáveis A e B) e apresentar
 o resultado do quadrado da divisão do primeiro valor (variável A) em relação ao segundo
-valor (variável B).*/
-	
-	funcao inicio()
-{
+valor (variável B).
+//Autor: Manuela da Silva Roque
+//Turma: 20231.1.TAS.1N 
+//Data: 01/08/2023  
+programa {
+	funcao inicio() {
 
 	     inteiro a, b, resultado
 	     
@@ -20,3 +20,4 @@ valor (variável B).*/
 		
 	}
 }
+
