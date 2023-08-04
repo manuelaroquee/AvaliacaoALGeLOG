@@ -1,11 +1,11 @@
-programa
-{
-/*m) Construir um programa que leia três valores numéricos inteiros (representados pelas
+//Questão M - Construir um programa que leia três valores numéricos inteiros (representados pelas
 variáveis A, B e C) e apresente como resultado final o valor da soma dos quadrados dos
-três valores lidos.*/
-	
-	funcao inicio()
-{
+três valores lidos.
+//Autor: Manuela da Silva Roque
+//Turma: 20231.1.TAS.1N 
+//Data: 01/08/2023  
+programa {
+	funcao inicio() {
 
 	     inteiro a, b, c, somaQuad
 	     
