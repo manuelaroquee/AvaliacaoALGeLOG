@@ -1,18 +1,11 @@
-//Questão A -  Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
-A fórmula de conversão é F = (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e C
-a temperatura em Celsius
+//Questão H -  Elaborar um programa que calcule e apresente o valor do volume de uma caixa
+retangular, utilizando a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
 //Autor: Manuela da Silva Roque
 //Turma: 20231.1.TAS.1N 
 //Data: 01/08/2023  
-programa
-{
-/*h) Elaborar um programa que calcule e apresente o valor do volume de uma caixa
-retangular, utilizando a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.*/
-	
-	funcao inicio()
-{
+programa {
+	funcao inicio() {
     
-
 	     inteiro volume, comprimento, largura, altura
 	     
 		escreva("Qual o comprimento da caixa? ")
